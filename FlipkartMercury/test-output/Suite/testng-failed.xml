@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <test name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="com.Flipkart.testcases.Testcase_001">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+          <include name="afterTest"/>
+          <include name="beforeclass"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.Flipkart.testcases.Testcase_001 -->
+      <class name="com.Flipkart.testcases.Testcase_002">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+          <include name="beforeclass"/>
+          <include name="gotohomepage"/>
+        </methods>
+      </class> <!-- com.Flipkart.testcases.Testcase_002 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
